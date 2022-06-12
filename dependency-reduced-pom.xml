@@ -24,7 +24,7 @@
               </artifactSet>
               <transformers>
                 <transformer>
-                  <mainClass>com.andurinha.localops.Main</mainClass>
+                  <mainClass>io.github.braisir.localops.Main</mainClass>
                 </transformer>
                 <transformer />
               </transformers>
