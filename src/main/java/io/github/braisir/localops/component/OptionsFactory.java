@@ -29,7 +29,7 @@ public class OptionsFactory {
 				
 		oper.addOption(helpOption());
 		oper.addOption(versionOption());
-		oper.addOption(checksOption());
+		//oper.addOption(checksOption());
 		oper.addOption(envOption());
 		
 		result.addOptionGroup(oper);

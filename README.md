@@ -27,8 +27,7 @@ Instalar la herramienta mediante uno de los paquetes disponible en el repositori
 
 ```
 $ lo
-usage: lo [-check | -env | -help | -hi | -version]
- -check            evaluate enviroment checks.
+usage: lo [-env | -help | -hi | -version]
  -env              show enviroment variables in shell.
  -help             show avaliable options.
  -hi               realiza un hola mundo
