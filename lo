@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+java -jar $LOCALOPS_HOME/localops-0.0.1-SNAPSHOT.jar

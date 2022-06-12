@@ -1,0 +1,27 @@
+---
+operations: 
+ hola_mundo:
+  alias: [hello_world, hw,hi]
+  desc: "realiza un hola mundo"
+  cmd:
+   nix: idem
+   win: echo "Hola Mundo"
+   mac: idem
+ test:
+  desc: "compila el proyecto y deja el resultado en target"
+  cmd:
+   allos: mvn clean install
+ install:
+  desc: "compila el proyecto y deja el resultado en target"
+  cmd:
+   allos: mvn clean install -DskipTests=true
+ update_version:
+  desc: "actualiza el numero de versión de los proyectos hijos"
+  cmd:
+   allos: mvn versions:update-child-modules
+defaults:
+ shell:
+  win: cmd.exe \c
+  nix: sh -c
+  mac: sh -c
+ path: .
