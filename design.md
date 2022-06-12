@@ -33,6 +33,10 @@
 - [ ] Incluir la versión en la ayuda, eliminar default-command version
 - [ ] Tendra una sección de comprobación de entorno que valide si los comandos se pueden ejecutar
 - [ ] Controlador de terminal interactiva
+- [ ] incluir default option manage <init|add|delete|..>
+	- init : crea un localops.yml default
+	- add : añade un comando al fichero
+	- delete : elimina un comando del fichero
 
 
 ## Incidencias
