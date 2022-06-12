@@ -10,7 +10,7 @@
 - [ ] revisar empaquetado :
    - https://docs.oracle.com/javase/8/docs/technotes/guides/deploy/self-contained-packaging.html
    - https://github.com/fvarrui/JavaPackager 
-- [ ] #1 limpiar código para liberar versión
+- [X] #1 limpiar código para liberar versión
 - [ ] ver como se libera una versión en github
 - [ ] ver como se publican los paquetes en github (github actions)
 - [ ] ver como usar colores en los mensajes
