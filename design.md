@@ -30,6 +30,7 @@
 - [ ] Ver de hacer más genericos los targets de despliegue (Incluir las opciones apache: Aix,etc..)
 - [ ] ver de incluir un banner ascii-art en la ayuda
 - [ ] Cambiar el comando de ayuda, para que muestre la sintaxis y ejemplos del localops.yml
+- [ ] Incluir la versión en la ayuda, eliminar default-command version
 - [ ] Tendra una sección de comprobación de entorno que valide si los comandos se pueden ejecutar
 - [ ] Controlador de terminal interactiva
 
